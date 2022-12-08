@@ -3,15 +3,18 @@ public class LeapYear {
         int year = 2020;
         String nie = "nie jest przystępny";
         String tak = "jest przystępny";
-        if (year%4>0){
-            System.out.println(nie);}
-        else if (year%4=0 && year%100=0 && year%400>0){
-            System.out.println(nie);}
-        else if (year%4=0 && year%100>0){
-            System.out.println(tak);}
-        else (year%4=0 && year%100=0 && year%400=0);{
-            System.out.println(tak);}
+        if (year % 4 > 0) {
+            System.out.println(nie);
+        } else if (year % 4 == 0 && year % 100 == 0 && year % 400 > 0) {
+            System.out.println(nie);
+        } else if (year % 4 == 0 && year % 100 > 0) {
+            System.out.println(tak);
+        } else if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0) {
+            System.out.println(tak);
+        } else {
+            System.out.println("coś nie diałą");
         }
-        }
+    }
+}
 
 
