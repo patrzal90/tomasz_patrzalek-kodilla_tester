@@ -7,16 +7,20 @@ public class DebugExample {
         System.out.println(secondNumber);
         if (firstNumber > secondNumber) {
             subtrackAndDisplay(firstNumber, secondNumber);
-        }else{ sumAndDisplay(firstNumber, secondNumber);
+        } else {
+            sumAndDisplay(firstNumber, secondNumber);
 
-        }}
+        }
+    }
+
     private static void sumAndDisplay(int a, int b) {
         int result = a + b;
 
         System.out.println(result);
     }
-    private static void subtrackAndDisplay(int a, int b){
+
+    private static void subtrackAndDisplay(int a, int b) {
         int result = a - b;
         System.out.println(result);
     }
-    }
+}

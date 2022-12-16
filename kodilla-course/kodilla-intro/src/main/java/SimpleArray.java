@@ -8,10 +8,10 @@ public class SimpleArray {
         animals[4] = "wolf";
 
         String animal = animals[2];
-        System.out.println("animal");
+        System.out.println(animal);
         int numberOfElements = animals.length;
 
-        System.out.println("Ilość elementów mojej tablicy to" + numberOfElements);
+        System.out.println("Ilość elementów mojej tablicy to " + numberOfElements);
 
     }
 }
